@@ -1,0 +1,2 @@
+profileNamespace setVariable ["ExileClientPlayerLoadoutMili",ExileClientPlayerLoadout];
+saveProfileNamespace;
