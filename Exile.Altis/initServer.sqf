@@ -1,3 +1,6 @@
+ExileClient_gui_LoadoutDialog_calculateLoadoutPrice = compileFinal (preprocessFileLineNumbers 'custom\loadouts\ExileClient_gui_loadoutDialog_calculateLoadoutPrice.sqf');
+ExileClient_gui_loadoutDialog_event_checkLoadout = compileFinal (preprocessFileLineNumbers 'custom\loadouts\ExileClient_gui_loadoutDialog_event_checkLoadout.sqf');
+
 private _objects = 
 [
 	["Land_CarService_F", [14618.7,16877.4,18.7724], [[0.750538,-0.660827,0],[0,0,1]], [true, false]],

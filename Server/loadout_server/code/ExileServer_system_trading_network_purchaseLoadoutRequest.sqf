@@ -47,7 +47,7 @@ try
 	};
 	_playerMoney = _playerObject getVariable ["ExileMoney", 0];
 	_playerRespect = _playerObject getVariable ["ExileScore", 0];
-	if (_playerMoney < _totalNumber && (_add isEqualTo false)) then
+	if ((_playerMoney < _totalNumber) && (_add isEqualTo false)) then
 	{
 		throw 5;
 	};

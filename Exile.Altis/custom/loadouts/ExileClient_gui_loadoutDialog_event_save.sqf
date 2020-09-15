@@ -10,5 +10,5 @@ ExileClientPlayerLoadout set [7,ExileClientPlayerLoadoutFacewear];
 ExileClientPlayerLoadout set [8,ExileClientPlayerLoadoutBinocular];
 ExileClientPlayerLoadout set [9,ExileClientPlayerLoadoutItems];
 
-profileNamespace setVariable [format["ExileClientPlayerLoadout%1",ExileClientPlayerLoadoutServerName],ExileClientPlayerLoadout];
-missionNamespace setVariable [format["ExileClientPlayerLoadout%1",ExileClientPlayerLoadoutServerName],ExileClientPlayerLoadout];
+profileNamespace setVariable [format["ExileClientPlayerLoadout%1%2",ExileClientPlayerLoadoutServerName,ExileClientPlayerLoadoutNumber],ExileClientPlayerLoadout];
+missionNamespace setVariable [format["ExileClientPlayerLoadout%1%2",ExileClientPlayerLoadoutServerName,ExileClientPlayerLoadoutNumber],ExileClientPlayerLoadout];

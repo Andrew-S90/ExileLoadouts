@@ -25,7 +25,7 @@ if (_close) then
 	_listBox = _control;
 	_index = lbCurSel _listBox;
 	_type = ExileClientPlayerLoadoutListBox;
-	_base = format["%1%2",format["ExileClientPlayerLoadout%1",ExileClientPlayerLoadoutServerName],_type];
+	_base = format["%1%2",format["ExileClientPlayerLoadout%1%2",ExileClientPlayerLoadoutServerName,ExileClientPlayerLoadoutNumber],_type];
 
 
 	_loadoutArray = missionNamespace getVariable [_base,[]];

@@ -1054,5 +1054,15 @@ class RscExileLoadoutDialog
 			tooltipColorText[] = {1,1,1,1};
 			tooltipColorBox[] = {1,1,1,1};
 		};
+		
+		class LoadoutDropDown: InventoryDropDown
+		{
+			idc=2028;	
+			x="22.75 * (0.025) + (0)";
+			y="0.5 * (0.04) + (0)";
+			w="3 * (0.025)";
+			h="1 * (0.04)";
+			onLBSelChanged="_this call ExileClient_gui_loadoutDialog_event_onLoudoutDropDownSelectionChanged";
+		};
 	};
 };

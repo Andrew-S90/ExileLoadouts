@@ -9,6 +9,8 @@ if (!hasInterface || isServer) exitWith {};
 
 
 ExileClientPlayerLoadoutServerName = getText(missionConfigFile >> "CfgLoadout" >> "Settings" >> "ServerName");
+ExileClientPlayerLoadoutMax = getNumber(missionConfigFile >> "CfgLoadout" >> "Settings" >> "MaxLoadouts");
+ExileClientPlayerLoadoutNumber = 1;
 
 private ['_code', '_function', '_file'];
 {
@@ -31,6 +33,7 @@ forEach
 	['ExileClient_gui_loadoutDialog_event_onClearLoadoutButtonClick', 'custom\loadouts\ExileClient_gui_loadoutDialog_event_onClearLoadoutButtonClick.sqf'],
 	['ExileClient_gui_loadoutDialog_event_onInventoryListBoxSelectionChanged', 'custom\loadouts\ExileClient_gui_loadoutDialog_event_onInventoryListBoxSelectionChanged.sqf'],
 	['ExileClient_gui_loadoutDialog_event_onPlayerInventoryDropDownSelectionChanged', 'custom\loadouts\ExileClient_gui_loadoutDialog_event_onPlayerInventoryDropDownSelectionChanged.sqf'],
+	['ExileClient_gui_loadoutDialog_event_onLoudoutDropDownSelectionChanged', 'custom\loadouts\ExileClient_gui_loadoutDialog_event_onLoudoutDropDownSelectionChanged.sqf'],
 	['ExileClient_gui_loadoutDialog_event_onUnload', 'custom\loadouts\ExileClient_gui_loadoutDialog_event_onUnload.sqf'],
 	['ExileClient_gui_loadoutDialog_event_onWarningCheckboxStateChanged', 'custom\loadouts\ExileClient_gui_loadoutDialog_event_onWarningCheckboxStateChanged.sqf'],
 	['ExileClient_gui_loadoutDialog_event_save', 'custom\loadouts\ExileClient_gui_loadoutDialog_event_save.sqf'],
@@ -41,6 +44,7 @@ forEach
 	['ExileClient_gui_loadoutDialog_show', 'custom\loadouts\ExileClient_gui_loadoutDialog_show.sqf'],
 	['ExileClient_gui_loadoutDialog_updateInventoryDropdown', 'custom\loadouts\ExileClient_gui_loadoutDialog_updateInventoryDropdown.sqf'],
 	['ExileClient_gui_loadoutDialog_updateInventoryListBox', 'custom\loadouts\ExileClient_gui_loadoutDialog_updateInventoryListBox.sqf'],
+	['ExileClient_gui_loadoutDialog_updateLoadoutDropdown', 'custom\loadouts\ExileClient_gui_loadoutDialog_updateLoadoutDropdown.sqf'],
 	['ExileClient_gui_loadoutDialog_updateLoadoutInterface', 'custom\loadouts\ExileClient_gui_loadoutDialog_updateLoadoutInterface.sqf'],
 	['ExileClient_gui_loadoutDialog_updateLoadoutListBox', 'custom\loadouts\ExileClient_gui_loadoutDialog_updateLoadoutListBox.sqf'],
 	['ExileClient_gui_loadoutDialog_updatePriceInterface', 'custom\loadouts\ExileClient_gui_loadoutDialog_updatePriceInterface.sqf'],

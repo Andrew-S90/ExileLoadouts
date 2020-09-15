@@ -19,7 +19,7 @@ disableSerialization;
 createDialog "RscExileLoadoutDialog";
 _dialog = uiNameSpace getVariable ["RscExileLoadoutDialog", displayNull];
 
-ExileClientPlayerLoadout = profileNamespace getVariable [format["ExileClientPlayerLoadout%1",ExileClientPlayerLoadoutServerName],[]];
+ExileClientPlayerLoadout = profileNamespace getVariable [format["ExileClientPlayerLoadout%1%2",ExileClientPlayerLoadoutServerName,ExileClientPlayerLoadoutNumber],[]];
 ExileClientPlayerLoadout = ExileClientPlayerLoadout call ExileClient_gui_loadoutDialog_event_checkLoadout;
 ExileClientPlayerLoadoutWarnings = profileNamespace getVariable ["ExileClientPlayerLoadoutWarnings",true];
 
@@ -60,6 +60,7 @@ _loadoutBuy ctrlCommit 0;
 
 true call ExileClient_gui_postProcessing_toggleDialogBackgroundBlur;
 true call ExileClient_gui_loadoutDialog_updateInventoryDropdown;
+true call ExileClient_gui_loadoutDialog_updateLoadoutDropdown;
 true call ExileClient_gui_loadoutDialog_updateLoadoutInterface;
 true call ExileClient_gui_loadoutDialog_updatePriceInterface;
 if(count ExileClientPlayerLoadoutUniform > 0) then

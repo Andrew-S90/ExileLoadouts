@@ -56,37 +56,3 @@ if (_result) then
 		["purchaseLoadoutRequest", [_purchaseLoadout,_currentLoadout]] call ExileClient_system_network_send;
 	};
 };
-
-
-/*
-if (_result) then
-{
-	ExileClientPlayerLoadout = getUnitLoadout player;
-
-	ExileClientPlayerLoadoutPrimary = ExileClientPlayerLoadout select 0;
-	ExileClientPlayerLoadoutSecondary = ExileClientPlayerLoadout select 1;
-	ExileClientPlayerLoadoutPistol = ExileClientPlayerLoadout select 2;
-	ExileClientPlayerLoadoutUniform = ExileClientPlayerLoadout select 3;
-	ExileClientPlayerLoadoutVest = ExileClientPlayerLoadout select 4;
-	ExileClientPlayerLoadoutBackpack = ExileClientPlayerLoadout select 5;
-	ExileClientPlayerLoadoutHeadgear = ExileClientPlayerLoadout select 6;
-	ExileClientPlayerLoadoutFacewear = ExileClientPlayerLoadout select 7;
-	ExileClientPlayerLoadoutBinocular = ExileClientPlayerLoadout select 8;
-	ExileClientPlayerLoadoutItems = ExileClientPlayerLoadout select 9;
-	ExileClientPlayerLoadoutListBox = "Loadout";
-	
-	[] call ExileClient_gui_loadoutDialog_event_save;
-	true call ExileClient_gui_loadoutDialog_updateInventoryDropdown;
-	true call ExileClient_gui_loadoutDialog_updateLoadoutInterface;
-	true call ExileClient_gui_loadoutDialog_updatePriceInterface;
-	if(count ExileClientPlayerLoadoutUniform > 0) then
-	{
-		[(((ExileClientPlayerLoadoutUniform select 0) call BIS_fnc_itemType) select 1),false] call ExileClient_gui_loadoutDialog_updateLoadoutListBox;
-	};
-	true call ExileClient_gui_loadoutDialog_updateInventoryListBox;
-	["SuccessTitleAndText", ["Loadout", "New Loadout Applied!"]] call ExileClient_gui_toaster_addTemplateToast;
-}
-else
-{
-
-};*/

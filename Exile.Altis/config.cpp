@@ -18,6 +18,8 @@ class CfgLoadout
 		//NAME THIS SOMETHING UNIQUE!!! NO SPACES!
 		//If someone loaded this up default they could get items/weapons not in your trader config on your server if you don't change this!
 		
+		MaxLoadouts = 5; //Maximum number of loadouts a player can have.
+		
 		BlockedItems[] = 
 		{
 			"G_Goggles_VR",
