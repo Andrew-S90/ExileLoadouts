@@ -1,0 +1,2 @@
+ExileClient_gui_LoadoutDialog_calculateLoadoutPrice = compileFinal (preprocessFileLineNumbers 'custom\loadouts\ExileClient_gui_loadoutDialog_calculateLoadoutPrice.sqf');
+ExileClient_gui_loadoutDialog_event_checkLoadout = compileFinal (preprocessFileLineNumbers 'custom\loadouts\ExileClient_gui_loadoutDialog_event_checkLoadout.sqf');

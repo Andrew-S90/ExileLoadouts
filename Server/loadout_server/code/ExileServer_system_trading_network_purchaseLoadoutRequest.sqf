@@ -1,15 +1,12 @@
-/**
- * ExileServer_system_trading_network_purchaseItemRequest
+ /*
  *
- * Exile Mod
- * www.exilemod.com
- * © 2015 Exile Mod Team
+ * Author: Andrew_S90
  *
- * This work is licensed under the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License. 
- * To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-nd/4.0/.
+ * This work is protected by Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0). 
+ *
  */
  
-private["_sessionID", "_parameters", "_itemClassName", "_quantity", "_containerType", "_containerNetID", "_playerObject", "_vehicleObject", "_salesPrice", "_playerMoney", "_playerRespect", "_quality", "_requiredRespect", "_logging", "_traderLog", "_responseCode"];
+private ["_sessionID", "_parameters", "_purchaseLoadout", "_currentLoadout", "_playerObject", "_loadoutNumber", "_gearNumber", "_totalNumber", "_add", "_playerMoney", "_playerRespect", "_respectGain", "_logging", "_traderLog", "_responseCode"];
 _sessionID = _this select 0;
 _parameters = _this select 1;
 _purchaseLoadout = _parameters select 0;
