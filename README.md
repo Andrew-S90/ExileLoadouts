@@ -6,7 +6,7 @@ Server owners can change the number of provided loadouts the player can save.
 
 If a loadout is somehow corrupted it will attempt to repair a portion of the loadout so everything is not lost
 
-Showcase video: 
+Showcase video: https://www.youtube.com/watch?v=VJcyWqQDPqY
 
 This was developed on a test server with EXTDB2, no infistar and no battleye.
 
