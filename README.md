@@ -35,6 +35,10 @@ Paste the contents on the top of this file. The server needs these client files 
 
 If you are having trouble please view the example mission included.
 
+**stringtable.xml**
+
+Copy and paste this straight into the main directory for the mission file. (Next to the config.cpp etc.)
+
 ### Server
 
 **Code**
