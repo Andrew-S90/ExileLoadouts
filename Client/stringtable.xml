@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Project name="AWG">
+	<Package name="Loadout">
+		<Container name="Loadout">
+			<Key ID="STR_LOADOUT_Yes">
+				<Original>yes</Original>
+				<English>yes</English>
+				<Czech>ano</Czech>
+				<French>oui</French>
+				<German>ja</German>
+				<Italian>sì</Italian>
+				<Polish>tak</Polish>
+				<Portuguese>sim</Portuguese>
+				<Russian>да</Russian>
+				<Spanish>sí</Spanish>
+				<Korean>네</Korean>
+				<Japanese>はい</Japanese>
+                <Chinesesimp>是</Chinesesimp>
+                <Chinese>是（繁體）</Chinese>
+			<Key ID="STR_LOADOUT_Loadout">
+			</Key>
+				<Original>Loadout:</Original>
+				<English>Loadout:</English>
+				<German>Loadout:</German>
+				<Portuguese>Loadout:</Portuguese>
+				<Russian>Loadout:</Russian>
+			</Key>
+			<Key ID="STR_LOADOUT_Inventory">
+				<Original>Inventory:</Original>
+				<English>Inventory:</English>
+				<German>Inventory:</German>
+				<Portuguese>Inventory:</Portuguese>
+				<Russian>Снаряжение:</Russian>
+			</Key>
+			<Key ID="STR_LOADOUT_Close">
+				<Original>Close</Original>
+				<English>Close</English>
+				<German>Schließen</German>
+				<Portuguese>Fechar</Portuguese>
+				<Russian>Закрыть</Russian>
+			</Key>
+			
+			<Key ID="STR_LOADOUT_Equipment">
+				<Original>Equipment</Original>
+				<English>Equipment</English>
+				<German>Ausrüstung</German>
+				<Portuguese>Equipamento</Portuguese>
+				<Russian>Снаряжение</Russian>
+			</Key>
+			
+			<Key ID="STR_LOADOUT_Uniform">
+				<Original>Uniform</Original>
+				<English>Uniform</English>
+				<German>Uniform</German>
+				<Portuguese>Uniforme</Portuguese>
+				<Russian>Одежда</Russian>
+			</Key>
+			
+			<Key ID="STR_LOADOUT_Vest">
+				<Original>Vest</Original>
+				<English>Vest</English>
+				<German>Weste</German>
+				<Portuguese>Colete</Portuguese>
+				<Russian>Жилет</Russian>
+			</Key>
+			
+			<Key ID="STR_LOADOUT_Backpack">
+				<Original>Backpack</Original>
+				<English>Backpack</English>
+				<German>Rucksack</German>
+				<Portuguese>Mochila</Portuguese>
+				<Russian>Рюкзак</Russian>
+			</Key>
+			
+			<Key ID="STR_LOADOUT_Apply">
+				<Original>Apply</Original>
+				<English>Apply</English>
+				<German>Bestätigen</German>
+				<Portuguese>Aplicar</Portuguese>
+				<Russian>Применить</Russian>
+			</Key>
+			
+			<Key ID="STR_LOADOUT_Save">
+				<Original>Save current full loadout for purchase later</Original>
+				<English>Save current full loadout for purchase later</English>
+				<German>derzeitiges Loadout für späteren Kauf speichern</German>
+				<Portuguese>Salvar perfil de equipamento</Portuguese>
+				<Russian>Сохранить текущую загрузку для покупки в будущем</Russian>
+			</Key>
+			
+			<Key ID="STR_LOADOUT_AddButton">
+				<Original>Add</Original>
+				<English>Add</English>
+				<German>Hinzufügen</German>
+				<Portuguese>Adicionar</Portuguese>
+				<Russian>Добавить</Russian>
+			</Key>
+			
+			<Key ID="STR_LOADOUT_AddText">
+				<Original>Add a single item to your loadout</Original>
+				<English>Add a single item to your loadout</English>
+				<German>einzelnes Item zum Loadout hinzufügen</German>
+				<Portuguese>Adicionar item</Portuguese>
+				<Russian>Добавить предмет в загрузку</Russian>
+			</Key>
+			
+			<Key ID="STR_LOADOUT_ClearButton">
+				<Original>Clear</Original>
+				<English>Clear</English>
+				<German>Zurücksetzen</German>
+				<Portuguese>Apagar</Portuguese>
+				<Russian>Сброс</Russian>
+			</Key>
+			
+			<Key ID="STR_LOADOUT_ClearText">
+				<Original>Gives you a clean slate for your loadout</Original>
+				<English>Gives you a clean slate for your loadout</English>
+				<German>setzt dein Loadout zurück</German>
+				<Portuguese>Remover todos os items</Portuguese>
+				<Russian>Убрать загрузку</Russian>
+			</Key>
+			
+			<Key ID="STR_LOADOUT_BuyButton">
+				<Original>Buy</Original>
+				<English>Buy</English>
+				<German>Kaufen</German>
+				<Portuguese>Comprar</Portuguese>
+				<Russian>Купить</Russian>
+			</Key>
+			
+			<Key ID="STR_LOADOUT_BuyText">
+				<Original>Purchase your loadout</Original>
+				<English>Purchase your loadout</English>
+				<German>Loadout kaufen</German>
+				<Portuguese>Comprar equipamento</Portuguese>
+				<Russian>Купить свою загрузку</Russian>
+			</Key>
+			
+			<Key ID="STR_LOADOUT_Price">
+				<Original>Price:</Original>
+				<English>Price:</English>
+				<German>Preis:</German>
+				<Portuguese>Preço:</Portuguese>
+				<Russian>Цена:</Russian>
+			</Key>
+			
+			<Key ID="STR_LOADOUT_PriceToolTip">
+				<Original>Total Loadout Cost</Original>
+				<English>Total Loadout Cost</English>
+				<German>Preis für das komplette Loadout</German>
+				<Portuguese>Preço total de equipamento</Portuguese>
+				<Russian>Общая стоимость загрузки</Russian>
+			</Key>
+			
+			<Key ID="STR_LOADOUT_Gear">
+				<Original>Gear</Original>
+				<English>Gear</English>
+				<German>Ausrüstung</German>
+				<Portuguese>Equipamento</Portuguese>
+				<Russian>Вещи</Russian>
+			</Key>
+			
+			<Key ID="STR_LOADOUT_GearToolTip">
+				<Original>Current Gear Sell Price</Original>
+				<English>Current Gear Sell Price</English>
+				<German>derzeitiger Verkaufspreis für deine Ausrüstung</German>
+				<Portuguese>Preço de venda de equipamento</Portuguese>
+				<Russian>Текущая цена продажи снаряжения</Russian>
+			</Key>
+			
+			<Key ID="STR_LOADOUT_Total">
+				<Original>Total</Original>
+				<English>Total</English>
+				<German>insgesamt</German>
+				<Portuguese>Total</Portuguese>
+				<Russian>Всего</Russian>
+			</Key>
+			
+			<Key ID="STR_LOADOUT_TotalToolTip">
+				<Original>Total price you pay or receive</Original>
+				<English>Total price you pay or receive</English>
+				<German>Gesamtmenge die du erhälst oder bezahlst</German>
+				<Portuguese>Preço total que vai pagar/receber</Portuguese>
+				<Russian>Общая цена, которую вы платите или получаете</Russian>
+			</Key>
+			
+			<Key ID="STR_LOADOUT_Warnings">
+				<Original>Click to enable or disable warnings</Original>
+				<English>Click to enable or disable warnings</English>
+				<German>drücken zum deaktivieren oder aktivieren von Warnungen</German>
+				<Portuguese>Clicar para habilitar/desabilitar alertas</Portuguese>
+				<Russian>Нажмите, чтобы включить или отключить предупреждения</Russian>
+			</Key>
+			
+			<Key ID="STR_LOADOUT_Message1">
+				<Original>Click on items to see their contents or weapon attachments! Click Again to Close</Original>
+				<English>Click on items to see their contents or weapon attachments! Click Again to Close</English>
+				<German>drücke auf einen Gegenstand um seinen Inhalt oder die Waffenmodifikationen (zb. Visier) zu sehen. Klicke erneut um es zu schließen</German>
+				<Portuguese>Clicar em items para ver o seu conteúdo ou acessórios para armas! Clicar novamente para fechar</Portuguese>
+				<Russian>Нажмите на предметы, чтобы увидеть их содержимое!  Нажмите еще раз, чтобы закрыть</Russian>
+			</Key>
+			
+			<Key ID="STR_LOADOUT_Message2">
+				<Original>Double Click on any item to remove it from your loadout</Original>
+				<English>Double Click on any item to remove it from your loadout</English>
+				<German>Doppelklick auf einen Gegenstand um ihn von deinem Loadout zu entfernen</German>
+				<Portuguese>Duplo click num item para o remover do equipamento</Portuguese>
+				<Russian>Дважды щелкните по любому элементу, чтобы удалить его из своей загрузки</Russian>
+			</Key>
+			
+			<Key ID="STR_LOADOUT_ApplyLoadout">
+				<Original>Do you want to apply your current loadout as your saved loadout?</Original>
+				<English>Do you want to apply your current loadout as your saved loadout?</English>
+				<German>willst du dein derzeitiges Loadout zu deinem gespeicherten Loadout machen?</German>
+				<Portuguese>Pretende guardar o perfil de equipamento atual?</Portuguese>
+				<Russian>Применить текущую загрузку в качестве сохранённой ?</Russian>
+			</Key>
+			
+			<Key ID="STR_LOADOUT_ClearLoadout">
+				<Original>Do you want to clear your saved loadout?</Original>
+				<English>Do you want to clear your saved loadout?</English>
+				<German>willst du dein derzeitiges Loadout löschen</German>
+				<Portuguese>Pretende apagar o equipamento guardado?</Portuguese>
+				<Russian>Сбросить сохранённую загрузку?</Russian>
+			</Key>
+			
+			<Key ID="STR_LOADOUT_AddUniformLoadout">
+				<Original>Do you want to add your uniform with the items?</Original>
+				<English>Do you want to add your uniform with the items?</English>
+				<German>willst du die Uniform zusammen mit den Items hinzufügen?</German>
+				<Portuguese>Pretende adicionar o uniforme com os itens?</Portuguese>
+				<Russian>Сбросить форму с предметами?</Russian>
+			</Key>
+			
+			<Key ID="STR_LOADOUT_AddVestLoadout">
+				<Original>Do you want to add your vest with the items?</Original>
+				<English>Do you want to add your vest with the items?</English>
+				<German>willst du die Weste zusammen mit den Items hinzufügen?</German>
+				<Portuguese>Pretende adicionar o colete com os itens?</Portuguese>
+				<Russian>Добавить свой жилет с предметами?</Russian>
+			</Key>
+			
+			<Key ID="STR_LOADOUT_AddBackpackLoadout">
+				<Original>Do you want to add your backpack with the items?</Original>
+				<English>Do you want to add your backpack with the items?</English>
+				<German>willst du den Rucksack zusammen mit den Items hinzufügen?</German>
+				<Portuguese>Pretende adicionar a mochila com os itens?</Portuguese>
+				<Russian>Добавить свой рюкзак с предметами ?</Russian>
+			</Key>
+			
+			<Key ID="STR_LOADOUT_AddWeaponLoadout">
+				<Original>Do you want to add your backpack with the items?</Original>
+				<English>Do you want to add your backpack with the items?</English>
+				<German>willst du die Waffe mit den Modifikationen (zb.Visier) hinzufügen?</German>
+				<Portuguese>Pretende adicionar esta arma com os acessórios?</Portuguese>
+				<Russian>Добавить это оружие с апгрейдом ?</Russian>
+			</Key>
+			
+			<Key ID="STR_LOADOUT_RemoveItemLoadout">
+				<Original>Do you want to remove this item?</Original>
+				<English>Do you want to remove this item?</English>
+				<German>willst du diesen Gegenstand entfernen?</German>
+				<Portuguese>Pretende remover este item?</Portuguese>
+				<Russian>Удалить этот предмет?</Russian>
+			</Key>
+		</Container>
+	</Package>
+</Project>
