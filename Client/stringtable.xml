@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<Project name="AWG">
+<Project name="LoadoutScript">
 	<Package name="Loadout">
 		<Container name="Loadout">
 			<Key ID="STR_LOADOUT_Yes">
@@ -17,8 +17,8 @@
 				<Japanese>はい</Japanese>
                 <Chinesesimp>是</Chinesesimp>
                 <Chinese>是（繁體）</Chinese>
-			<Key ID="STR_LOADOUT_Loadout">
 			</Key>
+			<Key ID="STR_LOADOUT_Loadout">
 				<Original>Loadout:</Original>
 				<English>Loadout:</English>
 				<German>Loadout:</German>
